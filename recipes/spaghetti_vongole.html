@@ -31,4 +31,16 @@
         <p>Add ¼ cup of the reserved pasta water to skillet; bring to a boil. Add pasta to pan. Cook over high heat, tossing constantly, until pasta is al dente and has soaked up some of the sauce from the pan. Add clams and any juices from bowl to pan, along with parsley, and toss to combine. (Add more pasta water if sauce seems dry.) Transfer pasta to warm bowls and drizzle with remaining oil.</p>
         <i>And you're done!</i>
     </body>
+    <script type="text/javascript">
+        (function(l) {
+          if (l.search[1] === '/' ) {
+            var decoded = l.search.slice(1).split('&').map(function(s) { 
+              return s.replace(/~and~/g, '&')
+            }).join('?');
+            window.history.replaceState(null, null,
+                l.pathname.slice(0, -1) + decoded + l.hash
+            );
+          }
+        }(window.location))
+      </script>
 </html>
