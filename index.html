@@ -3,16 +3,55 @@
     <head>
         <meta charset="UTF-8">
         <title>Homepage</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">    
+        <link rel="stylesheet" href="style.css">
     </head>
-    
+
     <body>
-        <h1>Italian Recipes</h1>
-        <h3><em>Dishes</em></h3>
-            <li><a href="recipes/spaghetti_vongole.html">Spaghetti alle Vongole</a>
-            <li><a href="recipes/lampredotto.html">Panini di Lampredotto</a>
-        <h3><em>Beverages</em></h3>     
-            <li><a href="recipes/aperol_spritz.html" onclick="window.open('recipes/aperol_spritz.html', '_self');">
-                Aperol Spritz
-                </a></li>
+        <div class="title">
+            <h1>Italian Recipes</h1>
+            <p>Italian cuisine is a world-renowned culinary tradition that offers a variety of flavors and dishes to explore. In this website, we’ll provide an introduction to Italian cuisine and its popular recipes, giving you a taste of what this delicious cuisine has to offer.</p>
+        </div>
+        <h2><span>Dishes</span></h2>
+        <div class="recipe-cards" id="dishes">
+            <div class="fcard1">
+                <a href="recipes/spaghetti_vongole.html"><span></span></a>
+                <h4><span>Spaghetti alle Vongole</span></h4>
+            </div>
+            <div class="fcard2">
+                <a href="recipes/cacio_e_pepe.html"><span></span></a>
+                <h4><span>Spaghetti Cacio e Pepe</span></h4>
+            </div>
+            <div class="fcard3">
+                <a href="recipes/lampredotto.html"><span></span></a>
+                <h4><span>Panini di Lampredotto</span></h4>
+            </div>
+            <div class="fcard4">
+                <a href="recipes/pizza.html"><span></span></a>
+                <h4><span>Pizza Napoletana</span></h4>
+            </div>
+            <div class="fcard5">
+                <a href="recipes/risotto.html"><span></span></a>
+                <h4><span>Risotto alla Milanese</span></h4>
+            </div>
+        </div>
+
+
+
+                <h2><em>Beverages</em></h2>  
+        <div class="recipe-cards" id="beverages">    
+            <div class="bcard1">
+                <img src="/images/aperol_spritz2.webp" class="bcard1-img" alt="">
+                <div class="bcard1-body">
+                    <h1 class="bcard1-title">Aperol Spritz</h1>
+                    <p class="bcard1-info">A glowing fusion of bitter orange and sweet wine, served in a balloon or wine glass and garnished with an orange slice.</p>
+
+                    <button class="bcard1-btn"><a href="recipes/aperol_spritz.html">View Recipe</a></button>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>

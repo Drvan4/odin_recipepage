@@ -1,0 +1,190 @@
+
+
+body {
+    background-color: rgb(242, 233, 220);
+    font-family: 'roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+.title {
+    background-image: url(/images/italy.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 67%;
+    background-size: cover;
+    color: antiquewhite;
+    padding: 80px;
+    margin: -10px;
+}
+
+
+.fcard1 {
+    background-image: url(images/vongole2.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 20px;
+    
+}
+
+.fcard2 {
+    background-image: url(images/cacioepepe.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+    
+.fcard3 {
+    background-image: url(images/lampredotto2.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+    position: relative;
+    border: 1px solid rgb(116, 47, 10);
+    border-radius: 20px;
+}
+
+.fcard4 {
+    background-image: url(images/pizza.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+    position: relative;
+    border: 1px solid rgb(116, 47, 10);
+    border-radius: 20px;
+}
+
+.fcard5 {
+    background-image: url(images/risotto.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 20px; 
+}
+
+
+.bcard1 {
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .3);
+    border: 4px solid white;
+    position: relative;
+}
+
+.bcard1-img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 15px;
+}
+.bcard1-body {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right:-100%;
+    position: absolute;
+    background: rgba(179, 119, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius:15px;
+    color: white;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1.5s;
+    
+}
+
+
+.bcard1-title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.bcard1-info {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 40px 0;
+}
+
+.bcard1-btn {
+    color:rgb(96, 62, 0);
+    background: rgb(252, 180, 45);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+    width:120px;
+}
+
+
+.bcard1:hover .bcard1-body {
+    right:0;
+}
+
+
+a span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 1
+}
+
+
+h4 span {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(250, 235, 215, .55);
+    padding: 5px
+}
+
+.recipe-cards {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+h2 span {
+    position: relative;
+    
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
